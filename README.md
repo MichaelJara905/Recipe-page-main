@@ -98,7 +98,7 @@ Define variables for later use
     src: url('assets/fonts/young-serif/YoungSerif-Regular.woff2') format('woff2');
     font-weight: 400;
     font-display: swap;
-}
+    }
 
     @theme {
 
