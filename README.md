@@ -37,7 +37,7 @@ In this project, I built a clean and simple recipe page that includes a title, i
   - Custom fonts are loaded via `@font-face` (Outfit and Young Serif).
   - CSS variables are declared under `@theme` for consistent color and typography use across the project.
 - The file is compiled using **PostCSS** to generate the final stylesheet.
-- Well-structured folder system for fonts (`/assets/fonts`) and images.
+- Well-structured folder system for fonts (`assets/fonts`) and images.
 
 ### 🧱 Structure and Layout
 
@@ -73,41 +73,32 @@ In this project, I built a clean and simple recipe page that includes a title, i
 Define variables for later use
 
     @font-face {
-
-        font-family: 'Outfit';
-        src: url('/assets/fonts/outfit/static/Outfit-Regular.woff2') format('woff2');
-        font-weight: 400;
-        font-style: normal;
-        font-display: swap;
+    font-family: 'Outfit';
+    src: url('assets/fonts/outfit/static/Outfit-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
     }
 
     @font-face {
-
-        font-family: 'Outfit';
-        src: url('/assets/fonts/outfit/static/Outfit-Semibold.woff2') format('woff2');
-        font-weight: 600;
-        font-style: normal;
-        font-display: swap;
+    font-family: 'Outfit';
+    src: url('assets/fonts/outfit/static/Outfit-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
     }
 
     @font-face {
-
-        font-family: 'Outfit';
-        src: url('/assets/fonts/outfit/static/Outfit-Bold.woff2') format('woff2');
-        font-weight: 700;
-        font-style: normal;
-        font-display: swap;
+    font-family: 'Outfit';
+    src: url('assets/fonts/outfit/static/Outfit-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
     }
 
     @font-face {
-
-        font-family: 'Young Serif';
-        src: url('/assets/fonts/young-serif/YoungSerif-Regular.woff2') format('woff2');
-        font-weight: 400;
-        font-style: normal;
-        font-display: swap;
-    }
-
+    font-family: 'Young Serif';
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
 
     @theme {
 
